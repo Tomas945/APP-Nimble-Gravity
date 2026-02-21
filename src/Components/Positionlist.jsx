@@ -25,9 +25,6 @@ export default function Positionlist() {
         });
     }, []);
 
-    useEffect(() => {
-        console.log(candidate);
-    }, [candidate]);
 
     return (
         <div>

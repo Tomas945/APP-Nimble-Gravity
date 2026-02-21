@@ -10,7 +10,7 @@ export default function Position({ id, title, candidate }) {
         postData(post, {
             uuid: candidate.uuid,
             jobId: id,
-            candidateId: candidate.id,
+            candidateId: candidate.candidateId,
             repoUrl: repoUrl
         })
             .then((data) => console.log("Aplicación enviada:", data))
