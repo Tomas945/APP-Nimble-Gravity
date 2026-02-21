@@ -10,6 +10,7 @@ export default function Position({ id, title, candidate }) {
         postData(post, {
             uuid: candidate.uuid,
             jobId: id,
+            applicationId: candidate.applicationId,
             candidateId: candidate.candidateId,
             repoUrl: repoUrl
         })
